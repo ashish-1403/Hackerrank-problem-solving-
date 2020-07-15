@@ -1,0 +1,9 @@
+l=int(input())
+r=int(input())
+ls=[]
+for i in range(l,r+1):
+    p=l^i
+    ls.append(p)
+    b=r^i
+    ls.append(b)
+print(max(ls))
