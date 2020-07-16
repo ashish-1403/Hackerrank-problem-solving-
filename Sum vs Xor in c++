@@ -1,0 +1,25 @@
+/* * * * * * * * * * * * * * 		
+#                          *
+#  @Author  ASHISH CHAUHAN  *
+#                          *
+# * * * * * * * * * * * * */
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long int
+int main()
+{
+	ll n,p=0;
+	cin>>n;
+	while(n)
+	{
+		if((n&1) == 0)
+			p++;
+		n=n>>1;
+	}
+	ll q=1<<p;
+	cout<<q<<endl;
+		
+	
+
+	return 0;
+}
