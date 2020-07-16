@@ -1,0 +1,6 @@
+n=int(input())
+p=0
+for i in range(0,n):
+    if n+i == n^i :
+        p += 1
+print(p)
