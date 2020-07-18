@@ -1,0 +1,16 @@
+n=int(input())
+for i in range(0,n):
+    b,w=map(int,input().split())
+    bc,wc,z=map(int,input().split())
+    if wc > bc+z:
+        p=(b+w)*bc + w*z
+        print(p)
+    elif bc > wc+z:
+        p=(b+w)*wc + b*z
+        print(p)
+    else:
+        p=b*bc+w*wc
+        print(p)
+    
+        
+        
