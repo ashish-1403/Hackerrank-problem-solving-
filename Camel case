@@ -1,0 +1,11 @@
+s=input()
+m=0
+for i in range(len(s)):
+    if s[i].isupper():
+        m+=1
+if s[0].isupper():
+    print(m)
+else:
+    print(m+1)
+        
+he
