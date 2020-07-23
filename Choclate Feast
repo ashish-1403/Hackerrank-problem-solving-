@@ -1,0 +1,18 @@
+t=int(input())
+for i in range(0,t):
+    s=0
+    n,c,m=map(int,input().split())
+    s=n//c
+    p=s
+    while p >= m:
+        z=p//m
+        s+=z
+        p=(p-(z*m))+z
+    print(s)
+    
+    
+            
+            
+        
+        
+    
