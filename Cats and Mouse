@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(0,t):
+    a,b,c =map(int,input().split())
+    x=abs(c-a)
+    y=abs(c-b)
+    if x < y:
+        print("Cat A")
+    elif x > y:
+        print("Cat B")
+    else:
+        print("Mouse C")
