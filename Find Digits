@@ -1,0 +1,17 @@
+t=int(input())
+for i in range(t):
+    count=0
+    n=int(input())
+    n1=n
+    while n > 0:
+        p=n%10
+        n=n//10
+        if p==0:
+            pass
+        elif n1%p == 0:
+            count+=1
+    print(count)
+        
+    
+
+    
