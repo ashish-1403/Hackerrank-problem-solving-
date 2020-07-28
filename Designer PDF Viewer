@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+int main()
+{
+    ll a[26],i,k,m=0;
+    for(i=0;i<26;i++)
+    {
+        cin>>a[i];    
+    }
+    string s;
+    cin>>s;
+    ll l=s.length();
+    for(i=0;i<l;i++)
+    {
+        k=s[i]-'a';
+        m=max(m,a[k]);
+    }
+    cout<<l*m;
+    return 0;    
+}
