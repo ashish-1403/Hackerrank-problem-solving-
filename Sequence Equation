@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+q=[]
+p=[]
+for i in range(1,n+1):
+    q.append(l.index(i)+1)
+for j in q:
+    p.append(l.index(j)+1)
+for k in p:
+    print(k)
+    
