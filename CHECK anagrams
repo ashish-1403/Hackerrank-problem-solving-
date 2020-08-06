@@ -1,0 +1,16 @@
+s=input()
+s1=input()
+a=0
+if len(s)==len(s1):
+    s=sorted(s)
+    s1=sorted(s1)
+    for i in range(0,len(s)):
+        if s[i]!=s1[i]:
+            a=1
+            break
+    if a==1:
+        print("NO")
+    else:
+        print("YES")
+else:
+    print("NO")
